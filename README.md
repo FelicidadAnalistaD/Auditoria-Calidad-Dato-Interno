@@ -3,7 +3,7 @@
 
 ---
 
-## 🎯 Declaración de Trabajo (SOW) y Enfoque SMART
+##  Declaración de Trabajo (SOW) y Enfoque SMART
 El objetivo de este proyecto es auditar, diagnosticar y corregir las inconsistencias críticas en el repositorio central de datos maestros de clientes (CRM) de la organización. Se busca garantizar la integridad de la información para evitar errores operativos en el equipo de ventas y asegurar reportes financieros 100% fiables para la dirección.
 
 * **Específico y Medible:** Detectar el volumen exacto de registros duplicados, normalizar formatos de texto/fechas y aislar de forma automática las direcciones de correo electrónico inválidas.
@@ -12,7 +12,7 @@ El objetivo de este proyecto es auditar, diagnosticar y corregir las inconsisten
 
 ---
 
-## 🔍 Diagnóstico de la Auditoría (El "Antes")
+##  Diagnóstico de la Auditoría (El "Antes")
 Al recibir el repositorio original de 101 filas, se identificaron los siguientes fallos críticos universales que ponían en riesgo la operativa del negocio:
 1. **Registros Duplicados:** Filas idénticas repetidas que inflaban artificialmente las métricas de clientes.
 2. **Caos en Atributos de Texto:** Nombres mal formateados escritos en mayúsculas, minúsculas y con espacios en blanco dobles/triples indeseados que rompían las búsquedas.
@@ -21,7 +21,7 @@ Al recibir el repositorio original de 101 filas, se identificaron los siguientes
 
 ---
 
-## 🛠️ Solución y Habilidades Aplicadas (El "Después")
+##  Solución y Habilidades Aplicadas (El "Después")
 Para resolver los fallos de la auditoría de forma eficiente y segura, se aplicaron las siguientes técnicas del curso de Google en la pestaña de datos limpios:
 
 * **Depuración de Duplicados:** Se identificaron y eliminaron **21 filas duplicadas**, reduciendo la base de datos a **80 registros únicos y válidos** (eliminando un 21% de datos basura).
@@ -32,7 +32,7 @@ Para resolver los fallos de la auditoría de forma eficiente y segura, se aplica
 
 ---
 
-## 🚀 Conclusión del Proyecto
+##  Conclusión del Proyecto
 Este ejercicio demuestra el valor real del control del dato: limpiar la base de datos no solo mejoró la calidad operativa del archivo, sino que permitió calcular con precisión quirúrgica el estado financiero real de la organización.
 
-👉 **[Haz clic aquí para abrir la Hoja de Cálculo interactiva con las fórmulas en Google Sheets](https://docs.google.com/spreadsheets/d/1duecVLqiy1KxExTSZUg9Wwcli2t0nCKH4F49oMvb2jM/edit?usp=sharing)**
+ **[Haz clic aquí para abrir la Hoja de Cálculo interactiva con las fórmulas en Google Sheets](https://docs.google.com/spreadsheets/d/1duecVLqiy1KxExTSZUg9Wwcli2t0nCKH4F49oMvb2jM/edit?usp=sharing)**
