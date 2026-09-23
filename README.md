@@ -25,7 +25,22 @@ Al recibir el archivo original de 101 filas, investigué a fondo y detecté los 
 Para resolver estos fallos de forma segura y eficaz, apliqué las técnicas que he aprendido en el Certificado de Google, para dejar los datos totalmente limpios.
 
 * **Depuración de Duplicados:** Identifique y elimine 21 filas repetidas. Así reduje la base de datos a , 80 registros unicos y reales, limpiando un 21% de datos basura.
-* **Normalización de Texto:** Utilice funciones avanzadas combinadas como NOMPROPIO Y ESPACIOS para unificar y corregir el formato de los nombres de los clientes de una sola vez.
+* **Normalización de Texto:**
+* ### 📸 Evidencia del Proceso de Normalización y Auditoría Visual
+
+A continuación se detalla el entorno de trabajo operativo donde se aplicaron las reglas de negocio, limpieza y fórmulas avanzadas:
+
+<img width="1324" height="608" alt="image" src="https://github.com/user-attachments/assets/cf51dbf7-307a-4a9b-8fe5-dd79e0c52dcc" />
+
+
+<img width="1299" height="578" alt="image" src="https://github.com/user-attachments/assets/d823ce80-549b-410d-bf54-0b834dc62acb" />
+
+
+*   **Auditoría Automatizada por Formato Condicional:** Implementación de alertas en color rosa fucsia de alto impacto visual para la detección inmediata de anomalías críticas de negocio (estructuras inválidas de correos electrónicos y registros sin fecha de alta).
+*   **Tratamiento y Normalización de Texto:** Aplicación de funciones combinadas para estandarizar nombres propios, corrigiendo anomalías de mayúsculas/minúsculas desordenadas y eliminando espacios innecesarios que rompen las búsquedas e indexaciones (`NOMPROPIO` + `ESPACIOS`).
+*   **Tratamiento Estadístico de Vacíos (Columna H):** En lugar de eliminar registros y sesgar la muestra, se realizó una imputación estratégica calculando el promedio de negocio de **179,45 €** para rellenar los huecos vacíos y obtener un cálculo financiero real y exacto de **14.176,58 €**.
+*   **Segmentación del Estado del Dato:** Creación de banderas lógicas condicionales (`VÁLIDO` / `ERROR`) que permiten al equipo de ventas filtrar rápidamente los registros corruptos que requieren gestión manual antes de cargarse al CRM.
+
 * **Validación Lógica:** Aplique una formula condicional con REGEXMARCH para cazar los correos sin @, usando el formato condicional rosa fucsia para que saltaran a la vista las alertas en mi cuadro de mando-
 * **Tratamiento Estadístico de Vacíos** Para no alterar los ingresos de la empresa de forma negativa, calculé el promedio global del negocio mediante la fórmula PROOMEDIO dando un valor de 179,45€ y use este dato estratégicamente para rellenar los huecos vacios.
 * **Cálculo Financiero de Cierre:** Aplique la función `=SUMA` sobre la columna limpia y depurada, obteniendo un valor real de ingresos de **14.176,58 €**.
