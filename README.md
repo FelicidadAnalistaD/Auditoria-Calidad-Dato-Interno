@@ -1,4 +1,4 @@
-# 📊 Proyecto: Auditoría e Incremento de la Calidad del Dato Interno
+#  Proyecto: Auditoría e Incremento de la Calidad del Dato Interno
 **Analista:** FelicidadAnalistaD
 
 ---
